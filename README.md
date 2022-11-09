@@ -1,2 +1,8 @@
-# IDEA
- High-Quality Temporal Link Prediction for Weighted Dynamic Graphs via Inductive Embedding Aggregation
+# High-Quality Temporal Link Prediction for Weighted Dynamic Graphs via Inductive Embedding Aggregation
+
+This repository provides a reference implementation of *IDEA* introduced in the paper "High-Quality Temporal Link Prediction for Weighted Dynamic Graphs via Inductive Embedding Aggregation".
+
+**We will make this project public when the paper is accepted.**
+
+### Abstract
+Temporal link prediction (TLP) is an inference task on dynamic graphs that predicts future topology using historical graph snapshots. Existing TLP methods are usually designed for unweighted graphs with fixed node sets. Some of them cannot be generalized to the prediction of weighted graphs with non-fixed node sets. Although several methods can still be used to predict weighted graphs, they can only derive low-quality prediction snapshots sensitive to large edge weights but fail to distinguish small and zero weights in adjacency matrices. In this study, we consider the challenging high-quality TLP on weighted dynamic graphs and propose a novel inductive dynamic embedding aggregation (IDEA) method, inspired by the high-resolution video prediction. IDEA combines conventional error minimization objectives with a scale difference minimization objective, which can generate high-quality weighted prediction snapshots, distinguishing differences among large, small, and zero weights in adjacency matrices. Since IDEA adopts an inductive dynamic embedding scheme with an attentive node aligning unit and adaptive embedding aggregation module, it can also tackle the TLP on weighted graphs even with non-fixed node sets. Experiments on datasets of various scenarios validate that IDEA can derive high-quality prediction results for weighted dynamic graphs and tackle the variation of node sets.
