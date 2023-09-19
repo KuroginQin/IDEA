@@ -12,6 +12,9 @@ If you find this project useful for your research, please cite the following pap
   title={High-Quality Temporal Link Prediction for Weighted Dynamic Graphs Via Inductive Embedding Aggregation},
   author={Qin, Meng and Zhang, Chaorui and Bai, Bo and Zhang, Gong and Yeung, Dit-Yan},
   journal={IEEE Transactions on Knowledge and Data Engineering},
+  volume={35},
+  number={9},
+  pages={9378--9393},
   year={2023},
   publisher={IEEE}
 }
